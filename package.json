@@ -1,0 +1,21 @@
+{
+  "name": "twitter-mongodb-60devs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony-async-await app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "dotenv": "^4.0.0",
+    "mongodb": "^2.2.22",
+    "twitter": "^1.7.0"
+  },
+  "devDependencies": {
+    "mongo": "^0.1.0"
+  }
+}
