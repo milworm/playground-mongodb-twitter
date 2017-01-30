@@ -1,0 +1,18 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Application</title>
+</head>
+<body>
+	<a href="/refresh">
+		<button>refresh the feed</button>
+	</a>
+	<h1>Tweets</h1>
+	{% for tweet in tweets %}
+		<div>
+			<p>{{tweet.text}}</p>
+			<a href="https://twitter.com/{{tweet.user.screen_name}}">@{{tweet.user.screen_name}}</a>
+		</div>
+	{% endfor %}
+</body>
+</html>
